@@ -5,10 +5,38 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>タカハシタカシ | Official Website</title>
 
-	<meta name="description" content="Vocaloid Producer YOUR NAME - Official Website">
+	<meta name="description" content="タカハシタカシ - Vocaloid Producer / Composer / Arranger / Illustrator のオフィシャルウェブサイト。最新楽曲、アートワーク、プロフィール情報を掲載。">
+	<meta name="keywords" content="タカハシタカシ, Vocaloid, ボカロP, 初音ミク, 音楽, エレクトロニカ, ポップス, 作曲, 編曲, イラスト">
+	<meta name="author" content="タカハシタカシ">
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://yourusername.github.io/takashi-official-website/">
+	<meta property="og:title" content="タカハシタカシ | Official Website">
+	<meta property="og:description" content="Vocaloid Producer / Composer / Arranger / Illustrator のオフィシャルウェブサイト">
+	<meta property="og:image" content="https://yourusername.github.io/takashi-official-website/artist.jpg">
+	<meta property="og:site_name" content="タカハシタカシ Official Website">
+	<meta property="og:locale" content="ja_JP">
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://yourusername.github.io/takashi-official-website/">
+	<meta property="twitter:title" content="タカハシタカシ | Official Website">
+	<meta property="twitter:description" content="Vocaloid Producer / Composer / Arranger / Illustrator のオフィシャルウェブサイト">
+	<meta property="twitter:image" content="https://yourusername.github.io/takashi-official-website/artist.jpg">
+	
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="dns-prefetch" href="//www.youtube.com">
+	<link rel="dns-prefetch" href="//open.spotify.com">
+	<link rel="dns-prefetch" href="//music.apple.com">
 	<style>
 		:root {
 			--bg: #0084ff;
@@ -32,6 +60,8 @@
 		.btn { padding: 12px 18px; border-radius: 999px; border: 1px solid rgba(3,23,83,.20); background: rgba(255,255,255,.50); color: var(--fg); transition: transform .15s ease; }
 		.btn.primary { background: linear-gradient(45deg, var(--primary), var(--accent)); border-color: transparent; color: var(--fg); font-weight: 700; box-shadow: 0 6px 18px rgba(3,23,83,.18); }
 		.btn:hover { transform: scale(1.35); }
+		.btn:focus { outline: 2px solid var(--primary); outline-offset: 2px; }
+		.btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
         nav.top { position: fixed; top: 12px; left: 50%; transform: translateX(-50%); backdrop-filter: blur(10px); background: rgba(134,251,255,.35); border: 1px solid rgba(3,23,83,.20); border-radius: 999px; padding: 6px 10px; z-index: 10; }
 		nav.top a { color: var(--fg); padding: 6px 10px; }
         .menu { display: flex; gap: 8px; align-items: center; }
@@ -112,7 +142,7 @@
 			<h2>Discography</h2>
 			<div class="grid">
 				<article class="card disco-item">
-					<img src="cover1.jpg" alt="Release 1">
+					<img src="cover1.jpg" alt="Track Title 1 - 2025年リリースのシングル楽曲のジャケットアート">
 					<div class="card-body">
 						<div class="meta">Single · 2025</div>
 						<h3 style="margin: 6px 0 8px;">Track Title 1</h3>
@@ -121,7 +151,7 @@
 					</div>
 				</article>
 				<article class="card disco-item">
-					<img src="cover2.jpg" alt="Release 2">
+					<img src="cover2.jpg" alt="Album Title - 2024年リリースのアルバムのジャケットアート">
 					<div class="card-body">
 						<div class="meta">Album · 2024</div>
 						<h3 style="margin: 6px 0 8px;">Album Title</h3>
@@ -130,7 +160,7 @@
 					</div>
 				</article>
 				<article class="card disco-item">
-					<img src="cover3.jpg" alt="Release 3">
+					<img src="cover3.jpg" alt="Track Title 2 - 2024年リリースのシングル楽曲のジャケットアート">
 					<div class="card-body">
 						<div class="meta">Single · 2024</div>
 						<h3 style="margin: 6px 0 8px;">Track Title 2</h3>
@@ -139,7 +169,7 @@
 					</div>
 				</article>
 				<article class="card disco-item">
-					<img src="cover4.jpg" alt="Release 4">
+					<img src="cover4.jpg" alt="EP Title - 2023年リリースのEPのジャケットアート">
 					<div class="card-body">
 						<div class="meta">EP · 2023</div>
 						<h3 style="margin: 6px 0 8px;">EP Title</h3>
@@ -156,9 +186,10 @@
 			<div class="card">
 				<div class="card-body">
 					<div class="list">
-						<div><span class="meta">2025-10-01</span> 「Song Title」配信開始</div>
-						<div><span class="meta">2025-09-15</span> 新曲MV公開</div>
-						<div><span class="meta">2025-08-30</span> ライブ出演 @ 渋谷 ○○</div>
+						<div><span class="meta">2025-01-15</span> オフィシャルウェブサイト開設</div>
+						<div><span class="meta">2025-01-10</span> 新曲制作開始</div>
+						<div><span class="meta">2024-12-25</span> クリスマス楽曲リリース予定</div>
+						<div><span class="meta">2024-12-01</span> 音楽専門学校入学</div>
 					</div>
 				</div>
 			</div>
